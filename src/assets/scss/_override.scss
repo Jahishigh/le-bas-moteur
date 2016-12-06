@@ -1,0 +1,53 @@
+h2 {
+  font-size: 25px;
+  margin-bottom: 92px;
+  border: 2px dashed;
+  padding: 24px;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  //width: 640px;
+  margin: 0 100px 0 100px;
+}
+
+.black {
+  background-color: black;
+  color: white;
+}
+
+.button {
+  margin-top: 112px;
+}
+
+section.slide {
+  //position: absolute;
+  height: 513px;
+  width: 100%;
+  background-image: url(../img/slide1.png);
+  background-size: cover;
+}
+
+section.allsection {
+  padding: 82px 0 82px 0;
+}
+
+section.sectionformule {
+  background-image: url(../img/formule.png);
+  background-size: cover;
+  article {
+    div.filter {
+      content: "";
+      height: 572px;
+      width: 305px;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 20px;
+      div.circle {
+        border-radius: 50%;
+        background-color: black;
+        border: 2px dashed white;
+      }
+    }
+  }
+}
